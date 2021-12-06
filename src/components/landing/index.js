@@ -47,7 +47,7 @@ Landing.RightSide = function LandingRightSide({}) {
     <RightSide>
       <motion.img
         alt=""
-        src={`${process.env.PUBLIC_URL}/images/landing-01.png`}
+        src={`${process.env.PUBLIC_URL}/images/landing-03.png`}
       />
     </RightSide>
   );

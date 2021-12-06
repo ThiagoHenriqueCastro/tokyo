@@ -1,5 +1,10 @@
 import { Breakpoint } from "react-socks";
-import { LandingContainer } from "../containers";
+
+import {
+  HeaderContainer,
+  LandingContainer,
+  HistoryContainer,
+} from "../containers";
 
 export default function Home() {
   return (
@@ -10,7 +15,9 @@ export default function Home() {
       </Breakpoint>
       {/* Desktops */}
       <Breakpoint large up>
+        <HeaderContainer />
         <LandingContainer />
+        <HistoryContainer />
       </Breakpoint>
     </>
   );
